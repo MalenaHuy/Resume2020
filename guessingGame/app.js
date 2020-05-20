@@ -8,6 +8,9 @@ function myFunction(){
 
     if(isNaN(x) || x < 1 || x > 100){
         alert("Invalid input, please enter number 1 to 100")
+        text="";
+        document.getElementById("demo").innerHTML=text;
+        document.getElementById("demo1").innerHTML=text;
     }else{
         if (x===d){
             text = "You've Read My Mind!";
