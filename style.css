@@ -1,0 +1,171 @@
+html{
+    background-color: rgb(225, 226, 222)
+}  
+
+#main-content{
+   padding: 50px;
+}
+
+#mainname{
+    text-align: center;
+    padding: 0px;
+    font-size: 45px;
+}
+
+#maincontact{
+    text-align: center;
+    font-size: 30px;
+}
+
+#myphoto { 
+    padding: 10px;
+    width: 300PX;
+    height: 300px; 
+    float: left;
+    /* round */
+    /* border-radius: 999em; */
+    border:1px solid #021a40;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#education{
+    padding: 1px 15px 1px 15px;
+    margin:0px;
+}
+
+#imageandeducation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#therestofbody{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.subheadingg{
+    margin-bottom: 0px; 
+}
+
+.subheadingSpecial{
+    margin-top: 0px;
+}
+
+.totheright{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.detail{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:35px;
+    margin-right:35px ;
+}
+
+.subandyear{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.subsubheading{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.underline{
+    text-underline-position: below;
+}
+
+/* footer */
+button:hover{
+    cursor: pointer;
+}
+
+button {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+/* this one gonna be fixed dveloper go over it */
+/* @media (min-width: 400px) {
+    body {
+        width: 1000px;
+        left: calc(50% - 190px);
+    }
+} */
+
+footer{
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+
+#certificateImage{
+    /* make image smaller */
+    height: 500px;    
+    /* make image round : 10% round the edges abit  50% make it round
+    (works with square photos*/
+    border-radius: 2%;
+    margin-left: 10px;
+    /* align-items: center; */
+    margin: 10px 25px 10px;
+    
+}
+
+
+button{
+    /* spacing margin and padding */
+    /* (outside) */
+    margin: 0px 25px 10px;
+    /* between element and border (inside)*/
+    padding: 5px 25px; 
+    background-color:white;
+    color:black;
+    font-size: 12px;
+    text-align: center; 
+    border: 1px solid blue;
+    text-transform: uppercase;
+    /* no affect on the button */
+    text-decoration: none;
+    /* add spacing between a letter or a text */
+    letter-spacing: 4px;
+    outline: none;
+    
+}
+
+#clickButton{
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#certificateImages{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+#card{
+    height: 250px;    
+    /* make image round : 10% round the edges abit  50% make it round
+    (works with square photos*/
+    border-radius: 2%;
+    margin-left: 10px;
+    /* align-items: center; */
+    margin: 10px 25px 10px;
+}
+
+
